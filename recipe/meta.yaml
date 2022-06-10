@@ -1,5 +1,5 @@
 {% set name = "twitchAPI" %}
-{% set version = "2.5.1" %}
+{% set version = "2.5.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8ce5f2e384768b665fe6ccf339ffe7fc14ced4cc04302440b864bf1ffbf72c11
+  sha256: 34e2eea2824d1a9b879ca6bd7801040f32899d7749ebf631dbff4a66a63d4839
 
 build:
   number: 0
